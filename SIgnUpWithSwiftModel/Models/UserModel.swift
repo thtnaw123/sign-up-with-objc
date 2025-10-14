@@ -42,6 +42,11 @@ class UserModel:NSObject {
         self.userCity = userCity
         self.userStreet = userStreet
     }
+    
+    func descrption() -> String {
+           return " name : \(userName) \n email : \(userEmail) \n phone : \(userPhone) \n date of birth : \(userDateOfBirth) \n password : \(userPassword) \n gender : \(userGender) \n occupation : \(userOccupation) \n country : \(userCountry) \n city : \(userCity) \n street : \(userStreet)"
+       }
+    
 }
 
 
